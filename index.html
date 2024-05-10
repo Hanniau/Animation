@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            color:rgb(233, 173, 22);
+            font-size: 70px;
+            background-color:rgb(199, 25, 83);
+        }
+img{
+    
+    
+    transform: rotate(360deg);
+    animation-name: move;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+}
+div{
+    margin: 20vh;
+    text-align: center;
+    
+}
+@keyframes move{
+    from{
+        transform: translateX(0px) ;
+    }
+    to{
+        transform: translateX(100px) ;
+    }
+    0%{
+        transform: translateX(20px) rotate(360deg);
+    }
+    50%{
+        transform: translateX(200px) rotate(360deg);
+    }
+    100%{
+        transform: translateX(400px)rotate(45deg);
+    }
+}
+
+
+    </style>
+
+</head>
+<body>
+   
+    <h1><i class="fa-solid fa-face-grin-stars"></i>Hello This is Animation Page<i class="fa-solid fa-face-grin-stars"></i></h1>
+    
+    <div>
+        <img src="./images.jpg" alt="football">
+        <img src="./images.jpg" alt="football">
+        <img src="./images.jpg" alt="football">
+      
+        
+    </div>
+</body>
+</html>
